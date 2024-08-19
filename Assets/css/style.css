@@ -1,0 +1,203 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Navbar START */
+    nav{
+        width: 100%;
+        background-color: rgb(255,70,85);
+
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    nav .container{
+        padding: 10px;
+    }
+
+    nav .container ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav .container ul li{
+        list-style-type: none;
+    }
+
+    nav .container ul li .judul{
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+
+        /* Menu START */
+        .menu{
+            width: 100%;
+            background-color: black;
+        }
+
+        .menu .container{
+            padding: 10px;
+        }
+
+        .menu  .container ul li a{
+            color: white;   
+            text-decoration: underline;
+            text-underline-offset: 10px;
+        }
+
+        .menu .container ul li a:hover{
+            color: red;
+        }
+        /* Menu END */
+/* Navbar END */
+
+
+/* Hero START */
+    .hero{
+        width: 100%;
+    }
+
+    .hero .container{
+
+    }
+
+    .hero .container img{
+        max-width: 50%;
+        
+        min-width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+
+        
+        /* background-color: black; */
+        /* background-image: url('https://www.blibli.com/friends-backend/wp-content/uploads/2024/02/B110272-Cover-istilah-dalam-valorant.jpg'); */
+        background-image: url('https://wallpapers.com/images/featured/black-abstract-m8kr2hfvrwlt8j5g.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+/* Hero END */
+
+/* Marquee START */
+    .marquee{
+        width: 100%;
+        background-color: rgb(34,24,36);
+    }
+
+    .marquee .container{
+        padding: 5px;
+    }
+
+    .marquee .container p{
+        color: white;
+    }
+/* Marquee END */
+
+/* Content START */
+.content{
+    width: 100%;
+    background-image: url('https://png.pngtree.com/png-vector/20220804/ourmid/pngtree-simple-blank-red-background-vector-for-business-png-image_6098342.png');
+    /* background-image: url('https://t3.ftcdn.net/jpg/06/53/01/26/360_F_653012686_damKXIEkKFYgwiHfdCTiwgOiuon6dAP8.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content .container{
+    padding: 20px;
+}
+
+.content .container h2{
+    color: red;
+}
+
+.content .container .text{
+    min-width: 300px;
+    max-width: 600px;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px black; 
+    background-color: rgba(255, 255, 255, 0.774);
+    
+    /* background-color: rgba(44, 43, 43, 0.596) ;         */
+}
+
+.content .container p::selection{
+    color: white;
+    background-color: red;
+}
+
+.content .container p{
+    color: black;
+}
+
+.content .container img{
+    width: 100%;
+}
+/* Content END */
+
+
+
+
+/* Agen START */
+.agen{
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/e1/13/a0/e113a044b3b460bea56cec0853cc14d7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.agen .container{
+    padding: 20px;
+}
+
+.agen .container h2{
+    color: red;
+    font-size: 24px;
+}
+
+.agen .container p{
+    color: white;
+}
+
+.agen .container img{
+    min-width: 200px;
+    min-height: 100px;
+
+    max-width: 500px;
+
+
+    object-fit: cover;
+}
+
+.agen .container .flex{
+    display: flex;
+    /* justify-content: space-evenly; */
+
+    
+} .agen .container .section{
+    padding: 20px;
+} .agen .container .section ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+    justify-content: center;
+    text-align: center;
+} .agen .container .section ul a{
+    margin: 10px;
+    text-decoration: none;
+}.agen .container .section ul a img{
+    min-width: 50px;
+    max-width: 100px;
+}.agen .container .section ul a p{
+    background-color: white;
+    color: black;
+}
+/* Agen END */
